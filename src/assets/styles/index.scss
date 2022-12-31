@@ -1,0 +1,11 @@
+@use './variables' as *;
+@use './fonts';
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+p {
+  font-size: 15px;
+}
