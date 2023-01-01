@@ -1,9 +1,9 @@
-@use './variables' as *;
-@use './fonts';
+@use "./reset";
+@use "./variables" as *;
+@use "./fonts";
 
 body {
-  font-family: 'Inter', sans-serif;
-  margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
 p {
