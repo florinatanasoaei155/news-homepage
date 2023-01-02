@@ -1,5 +1,3 @@
-import "./assets/styles/index.scss";
-
 import Header from "./components/Header";
 
 const App = () => {
