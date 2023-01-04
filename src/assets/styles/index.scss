@@ -1,5 +1,9 @@
+@use "./reset";
 @use "./variables" as *;
 @use "./fonts";
+@use "./sidebar";
+@use "./header";
+@use "./icon-button";
 
 body {
   font-family: "Inter", sans-serif;
@@ -7,4 +11,13 @@ body {
 
 p {
   font-size: 15px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  padding: 15px;
 }

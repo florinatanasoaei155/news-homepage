@@ -1,0 +1,32 @@
+.sidebar {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  &-paper {
+    background-color: #fff;
+    position: absolute;
+    left: 25%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+  }
+
+  &-close-icon-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .content {
+    padding-top: 100px;
+  }
+
+  &.open {
+    display: block;
+  }
+}
