@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <a href="/">
+      <a href="/" className="logo-wrapper">
         <img src={Logo} alt="Logo" />
       </a>
       <button onClick={toggleSidebar} className="icon-button">
