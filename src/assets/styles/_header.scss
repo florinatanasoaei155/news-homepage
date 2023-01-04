@@ -1,7 +1,15 @@
+@use "./variables" as *;
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (min-width: $lg) {
+    .icon-button {
+      display: none;
+    }
+  }
 }
 
 .logo-wrapper {
