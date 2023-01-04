@@ -1,12 +1,22 @@
-const Menu = () => {
+const Menu = ({ desktop }) => {
   return (
-    <nav className="menu">
+    <nav className={`menu${desktop ? " desktop" : ""}`}>
       <ul className="menu-list">
-        <li className="menu-list-item">Home</li>
-        <li className="menu-list-item">New</li>
-        <li className="menu-list-item">Popular</li>
-        <li className="menu-list-item">Trending</li>
-        <li className="menu-list-item">Categories</li>
+        <li className="menu-list-item">
+          <a href="#home">Home</a>
+        </li>
+        <li className="menu-list-item">
+          <a href="#new">New</a>
+        </li>
+        <li className="menu-list-item">
+          <a href="#popular">Popular</a>
+        </li>
+        <li className="menu-list-item">
+          <a href="#trending">Trending</a>
+        </li>
+        <li className="menu-list-item">
+          <a href="Categories">Categories</a>
+        </li>
       </ul>
     </nav>
   );

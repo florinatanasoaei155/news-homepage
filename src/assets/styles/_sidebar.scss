@@ -1,3 +1,5 @@
+@use "./variables" as *;
+
 .sidebar {
   display: none;
   position: absolute;
@@ -25,5 +27,9 @@
   &.open {
     display: flex;
     justify-content: flex-end;
+
+    @media (min-width: $lg) {
+      display: none;
+    }
   }
 }

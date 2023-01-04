@@ -15,4 +15,8 @@
 .logo-wrapper {
   display: flex;
   width: 45px;
+
+  @media (min-width: $lg) {
+    width: 75px;
+  }
 }

@@ -23,6 +23,7 @@ const Header = () => {
       <button onClick={toggleSidebar} className="icon-button">
         <img src={IconMenu} alt="Icon Menu" className="img" />
       </button>
+      <Menu desktop />
       <Sidebar open={sidebarOpen} onClose={handleClose}>
         <Menu />
       </Sidebar>
