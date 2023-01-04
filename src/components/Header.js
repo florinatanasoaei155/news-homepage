@@ -23,13 +23,13 @@ const Header = () => {
         <img src={IconMenu} alt="Icon Menu" className="img" />
       </button>
       <Sidebar open={sidebarOpen} onClose={handleClose}>
-        <nav>
-          <ul>
-            <li>Home</li>
-            <li>New</li>
-            <li>Popular</li>
-            <li>Trending</li>
-            <li>Categories</li>
+        <nav className="menu">
+          <ul className="menu-list">
+            <li className="menu-list-item">Home</li>
+            <li className="menu-list-item">New</li>
+            <li className="menu-list-item">Popular</li>
+            <li className="menu-list-item">Trending</li>
+            <li className="menu-list-item">Categories</li>
           </ul>
         </nav>
       </Sidebar>

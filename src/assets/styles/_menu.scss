@@ -1,0 +1,12 @@
+.menu {
+  font-size: 20px;
+  &-list {
+    padding-left: 15px;
+    &-item {
+      margin-bottom: 24px;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
