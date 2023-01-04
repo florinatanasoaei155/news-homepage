@@ -15,7 +15,7 @@ const Menu = ({ desktop }) => {
           <a href="#trending">Trending</a>
         </li>
         <li className="menu-list-item">
-          <a href="Categories">Categories</a>
+          <a href="#cateogories">Categories</a>
         </li>
       </ul>
     </nav>
