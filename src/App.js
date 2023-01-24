@@ -1,12 +1,5 @@
-import "./assets/styles/index.scss";
-import Header from "./components/Header";
-
 const App = () => {
-  return (
-    <div className="container">
-      <Header />
-    </div>
-  );
+	return <div> Test App</div>;
 };
 
 export default App;
